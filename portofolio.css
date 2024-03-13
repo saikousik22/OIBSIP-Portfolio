@@ -1,0 +1,287 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Navbar Styles */
+.navbar-logo 
+{
+    font-family: "Roboto"; /* Font for the logo */
+    font-size: 24px; /* Size of the logo text */
+    font-weight: 700; /* Boldness of the logo text */
+    border-style: solid; /* Border style */
+    border-width: 2px; /* Border width */
+    border-color: #4b6cc1; /* Border color */
+    padding-left: 10px; /* Left padding */
+    padding-right: 10px; /* Right padding */
+}
+.navbar_design 
+{
+    background-color: #9aa5b1; /* Background color for the navbar */
+}
+
+
+/* Homepage Section Styles */
+.homepage-section {
+    background-color: #191a1d; /* Background color for the homepage section */
+    height: 100vh; /* Full viewport height */
+}
+.homepage-image_style {
+    width: 350px; /* Width of homepage images */
+    margin-bottom: 10px; /* Bottom margin for homepage images */
+}
+.homepage-button {
+    color: #ffffff; /* Text color for buttons */
+    width: 130px; /* Width of buttons */
+    height: 45px; /* Height of buttons */
+    border-radius: 8px; /* Border radius of buttons */
+    background-color: #4b6cc1; /* Background color of buttons */
+    border-width: 0; /* Border width of buttons */
+}
+.homepage-heading {
+    color: #ffffff; /* Color of homepage headings */
+    font-family: "Roboto"; /* Font family for homepage headings */
+    font-size: 45px; /* Font size for homepage headings */
+    font-weight: 300; /* Font weight for homepage headings */
+}
+.homepage-paragraph 
+{
+    color: #9aa5b1; /* Color of homepage paragraphs */
+    font-family: "Roboto"; /* Font family for homepage paragraphs */
+    font-size: 24px; /* Font size for homepage paragraphs */
+}
+.span_style 
+{
+    color: #4b6cc1; /* Color for specific spans */
+}
+/* Navbar Hover Effect */
+.navbar-nav .nav-link:hover 
+{
+    background-color: #4b6cc1; /* Background color on hover */
+}
+
+
+/* About Me Section Styles */
+.aboutme-section 
+{
+    background-color: #323f4b; /* Background color for the about me section */
+}
+.aboutme-mainheading1 
+{
+    color: #cced00; /* Color for the main heading */
+    margin-top: 30px; /* Top margin for the main heading */
+    font-size: 30px; /* Font size for the main heading */
+}
+.aboutme-mainheading2 
+{
+    color: #ffffff; /* Color for the secondary heading */
+    margin-bottom: 25px; /* Bottom margin for the secondary heading */
+}
+.aboutme-image 
+{
+    width: 100%; /* Full width for images */
+}
+.aboutme-paragraph 
+{
+    color: #9aa5b1; /* Color for paragraphs */
+    font-size: 20px; /* Font size for paragraphs */
+}
+
+
+/* Skills Section Styles */
+.skills-section 
+{
+    background-color: #1f2933; /* Background color for the skills section */
+}
+.skills-cards 
+{
+    background-color: #323f4b; /* Background color for the skills cards */
+    border-width: 0; /* Border width for skills cards */
+    border-radius: 20px; /* Border radius for skills cards */
+    padding: 10px; /* Padding for skills cards */
+}
+.overlay 
+{
+    position: absolute; /* Positioning for overlay */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%; /* Full height for overlay */
+    width: 100%; /* Full width for overlay */
+    opacity: 0; /* Initial opacity */
+    transition: .5s ease; /* Transition effect */
+    background-color:  #cced00; /* Background color for overlay */
+    border-radius: 20px; /* Border radius for overlay */
+}
+.skills-cards:hover .overlay 
+{
+    opacity: 1; /* Change opacity on hover */
+}
+.skills-text 
+{
+    color: #000000; /* Color for skills text */
+    font-size: 20px; /* Font size for skills text */
+    font-family: 'Roboto'; /* Font family for skills text */
+    position: absolute; /* Positioning for skills text */
+    width: 80%; /* Width of skills text */
+    top: 50%; /* Position from top */
+    left: 50%; /* Position from left */
+    transform: translate(-50%, -50%); /* Centering text */
+    text-align: center; /* Text alignment */
+}
+.skills-sub-text 
+{
+    color: #ffffff; /* Color for skills sub-text */
+    font-family: "Roboto"; /* Font family for skills sub-text */
+    font-size: 22px; /* Font size for skills sub-text */
+    font-weight: bold; /* Font weight for skills sub-text */
+    margin-top: 10px; /* Top margin for skills sub-text */
+}
+
+
+/* Project Section Styles */
+.projects-section 
+{
+    background-color: #3e4c59; /* Background color for the projects section */
+}
+.projects-section-sub-heading 
+{
+    color: #cced00; /* Color for the sub-heading */
+    font-family: "Roboto"; /* Font family for the sub-heading */
+    font-size: 20px; /* Font size for the sub-heading */
+    font-weight: bold; /* Font weight for the sub-heading */
+}
+.projects-section-heading 
+{
+    color: #ffffff; /* Color for the heading */
+    font-family: "Roboto"; /* Font family for the heading */
+    font-size: 36px; /* Font size for the heading */
+    font-weight: bold; /* Font weight for the heading */
+}
+.projects-card 
+{
+    background-color: #323f4b; /* Background color for the project cards */
+    border-radius: 20px; /* Border radius for the project cards */
+}
+.projects-card-sub-title 
+{
+    color: #9aa5b1; /* Color for the sub-title */
+    font-family: "Roboto"; /* Font family for the sub-title */
+    font-size: 14px; /* Font size for the sub-title */
+    font-weight: 500; /* Font weight for the sub-title */
+}
+.projects-card-title 
+{
+    color: white; /* Color for the title */
+    font-family: "Roboto"; /* Font family for the title */
+    font-size: 24px; /* Font size for the title */
+    font-weight: 500; /* Font weight for the title */
+    margin-top: 5px; /* Top margin for the title */
+}
+.projects-card-description 
+{
+    color: #9aa5b1; /* Color for the description */
+    font-family: "Roboto"; /* Font family for the description */
+    font-size: 20px; /* Font size for the description */
+}
+.projects-card-link 
+{
+    color: #cced00; /* Color for the links */
+    font-family: "Roboto"; /* Font family for the links */
+    font-size: 14px; /* Font size for the links */
+    font-weight: bold; /* Font weight for the links */
+}
+
+
+/* Service Page Styles */
+.service-page 
+{
+    background-color: #52606d; /* Background color for the service page */
+}
+.service-section-sub-heading 
+{
+    color: #cced00; /* Color for the sub-heading */
+    font-family: "Roboto"; /* Font family for the sub-heading */
+    font-size: 20px; /* Font size for the sub-heading */
+    font-weight: bold; /* Font weight for the sub-heading */
+}
+.service-section-heading 
+{
+    color: #ffffff; /* Color for the heading */
+    font-family: "Roboto"; /* Font family for the heading */
+    font-size: 36px; /* Font size for the heading */
+    font-weight: bold; /* Font weight for the heading */
+}
+.service-cards 
+{
+    background-color: #323f4b; /* Background color for the service cards */
+    border-radius: 10px; /* Border radius for the service cards */
+    padding: 20px; /* Padding for the service cards */
+    margin-bottom: 15px; /* Bottom margin for the service cards */
+}
+.service-card-title 
+{
+    color: #ffffff; /* Color for the title */
+    font-family: "Roboto"; /* Font family for the title */
+    font-size: 24px; /* Font size for the title */
+    font-weight: bold; /* Font weight for the title */
+}
+.service-card-description 
+{
+    color: #9aa5b1; /* Color for the description */
+    font-family: "Roboto"; /* Font family for the description */
+    font-size: 20px; /* Font size for the description */
+}
+
+
+/* Footer Section Styles */
+.footer-section 
+{
+    background-color: #0d2436; /* Background color for the footer section */
+}
+.footer-section-image 
+{
+    width: 68px; /* Width for the footer section image */
+    height: 68px; /* Height for the footer section image */
+    border-radius: 40px; /* Border radius for the footer section image */
+}
+.footer-section-sub-heading 
+{
+    color: #cced00; /* Color for the sub-heading */
+    font-family: "Roboto"; /* Font family for the sub-heading */
+    font-size: 20px; /* Font size for the sub-heading */
+    font-weight: bold; /* Font weight for the sub-heading */
+}
+
+.footer-section-text 
+{
+    color: #9aa5b1; /* Color for the text */
+    font-family: "Roboto"; /* Font family for the text */
+    font-size: 14px; /* Font size for the text */
+}
+
+.footer-section-copyright-container 
+{
+    text-align: center; /* Text alignment for the copyright */
+    color: #ffffff; /* Color for the copyright text */
+    background-color: #001c32; /* Background color for the copyright container */
+    padding: 10px; /* Padding for the copyright container */
+}
+.follow-us-icon-container 
+{
+    background-color: #0d2436; /* Background color for the container */
+    width: 80px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 40px; /* Border radius of the container */
+    margin: 15px; /* Margin around the container */
+    padding-top: 22px; /* Padding at the top */
+    padding-bottom: 14px; /* Padding at the bottom */
+    padding-right: 16px; /* Padding at the right */
+    padding-left: 22px; /* Padding at the left */
+    border-style: solid; /* Border style */
+    border-color: #cced00; /* Border color */
+}
+.icon 
+{
+    color: #9aa5b1; /* Color of the icons */
+    font-size: 35px; /* Font size of the icons */
+}
